@@ -2,10 +2,15 @@
   background-color: #123;
   color: aliceblue;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 20vh;
   width: 100vw;
   position: sticky;
   top: 0;
+}
+.header h1 {
+  padding: 10px 0;
+  margin-bottom: 10px;
 }
