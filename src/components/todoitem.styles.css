@@ -5,6 +5,17 @@
   width: 100%;
   justify-content: flex-start;
   align-items: center;
+  /*border: 1px solid yellow;*/
+  transition: all 700ms ease-in-out;
+  border-radius: 5px;
+}
+
+.item:hover {
+  background-color: #334455;
+  color: rgb(241, 240, 192);
+  -webkit-box-shadow: 5px 12px 10px 0px rgba(229, 175, 175, 0.1);
+  -moz-box-shadow: 5px 12px 10px 0px rgba(229, 175, 175, 0.1);
+  box-shadow: 5px 12px 10px 0px rgba(229, 175, 175, 0.1);
 }
 .item p {
   margin-left: 20px;

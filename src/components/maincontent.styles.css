@@ -2,4 +2,26 @@
   width: 60vw;
   margin: 0 auto;
   padding: 2rem;
+  display: grid;
+  grid-gap: 2rem 1rem;
+  grid-template-areas:
+    "message message message"
+    "list contacts contacts"
+    "list contacts contacts"
+    "list contacts contacts"
+    "list contacts contacts";
+}
+
+.message {
+  grid-area: message;
+  text-align: center;
+  padding: 1vmax;
+}
+
+.todo-list {
+  grid-area: list;
+}
+
+.contact-list {
+  grid-area: contacts;
 }
