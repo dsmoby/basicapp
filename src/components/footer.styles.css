@@ -1,0 +1,8 @@
+.footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #202538;
+  color: antiquewhite;
+  position: fixed;
+  bottom: 0;
+}
