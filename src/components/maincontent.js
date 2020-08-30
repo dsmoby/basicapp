@@ -1,4 +1,5 @@
 import React from "react"
+import ToDoItem from "./todoitem"
 import "./maincontent.styles.css"
 
 function MainContent() {
@@ -20,9 +21,16 @@ function MainContent() {
   }
 
   return (
-    <h1 className="content" style={styles}>
-      Good {timeOfDay}{" "}
-    </h1>
+    <div className="content">
+      <h1 style={styles}>Good {timeOfDay} </h1>
+      <div id="todo-list">
+        <ToDoItem text="iten 1" />
+        <ToDoItem text="iten 2" />
+        <ToDoItem text="iten 3" />
+        <ToDoItem text="iten 4" />
+        <ToDoItem text="iten 5" />
+      </div>
+    </div>
   )
 }
 

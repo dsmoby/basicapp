@@ -1,0 +1,11 @@
+.item {
+  display: flex;
+  padding: 10px 20px;
+  height: 5vh;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item p {
+  margin-left: 20px;
+}
