@@ -1,5 +1,6 @@
 import React from "react"
 import "./header.styles.css"
+import CircleContainer from "./circles/circlecontainer"
 
 function Header() {
   const date = new Date()
@@ -22,7 +23,7 @@ function Header() {
   console.log("hour: " + hour)
   return (
     <header className="header">
-      <h1>This is the header</h1>
+      <CircleContainer />>
       <h1 className="message" style={styles}>
         Good {timeOfDay}{" "}
       </h1>
